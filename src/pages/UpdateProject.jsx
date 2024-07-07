@@ -50,7 +50,7 @@ const UpdateProject = () => {
   useEffect(() => {
     const getProject = async () => {
       await axios
-        .get(`https://portfolio-backend-neon-eight.vercel.app/api/v1/project/get/${id}`, {
+        .get(`https://portfolio-backend-use.vercel.app/api/v1/project/get/${id}`, {
           withCredentials: true,
         })
         .then((res) => {
